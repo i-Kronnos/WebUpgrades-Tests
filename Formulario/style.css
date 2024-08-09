@@ -1,0 +1,200 @@
+/* ----------------- CSS Code for Esteban Quiñones ----------------- */
+
+/* CSS Principal */
+
+/* Globales */
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1f2023;
+}
+
+h1 {
+    color: #e8eaed;
+    font-size: 50px;
+    text-align: center;
+    border-top: 20px solid #4d6d63;
+    border-bottom: 20px solid #4d6d63;
+    border-left: 20px solid #1f2023;
+    border-right: 20px solid #1f2023;
+}
+
+option {
+    text-transform: capitalize;
+}
+
+legend {
+    background-color: #4d6d63;
+    color: #e8eaed;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 8px;
+    text-align: start;
+}
+
+fieldset {
+    background-color: #d6e2de;
+    border: 5px solid #4d6d63; 
+    border-radius: 8px;
+    margin: 0 auto 20px auto;
+    width: 55%;
+    text-align: center;
+}
+
+label {
+    margin: 5px 0 20px 0;
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    background-color: #4d6d63;
+}
+
+fieldset:focus-within {
+    background-color: #a6bdba;
+}
+
+button:hover {
+    background-color: #d6e2de;
+    color: #2b3d37;
+}
+
+span {
+    font-weight: 700;
+}
+
+/* Main y formularios */
+
+label, input, select, textarea {
+    font-size: 20px;
+    display: block;
+}
+
+input, select, textarea {
+    margin: 0 auto 20px auto;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+label[for="femenino"],
+label[for="masculino"],
+label[for="otro"],
+label[for="condiciones"],
+label[for="novedades"],
+label[for="basquet"],
+label[for="basquet-r"],
+label[for="futbol"],
+label[for="futbol-r"],
+label[for="boxeo"],
+label[for="rugby"],
+label[for="tenis"],
+label[for="voley"] {
+    display: inline;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+    width: 65%;
+    height: 35px;
+    text-align: end;
+    font-family: Poppins, sans-serif;
+}
+
+select {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+textarea {
+    height: 200px;
+    font-family: Poppins, sans-serif;
+}
+
+input[id="telefono"],
+input[id="email"] {
+    text-align: end;
+}
+
+label[for="actividad-palermo"],
+label[for="actividad-rosario"] {
+    text-align: start;
+}
+
+button {
+    background-color: #2b3d37;
+    padding: 15px;
+    font-size: 20px;
+    margin: 0 30px 10px 30px;
+    color: #c0c7b4;
+    border-radius: 8px;
+    border: 3px solid #4d6d63; 
+}
+
+hr {
+    margin: 0;
+    border: 0;
+    text-align: center;
+    
+    &:before {
+      content: "\2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022 \2022";
+      font-size: 50px;
+      color: #a6c1b9;
+      letter-spacing: 20px;
+    }
+  }
+
+.start {
+    text-align: start;
+}
+
+.cap-upper {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* Footer */
+
+.footer-input {
+    color: #e8eaed;
+    font-weight: 400;
+    width: 55%;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.footer-input label {
+    font-size: 18px;
+}
+
+.footer-button {
+    background-color: aqu;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* Header */
+
+.header {
+    width: 50%;
+    margin: auto;
+}
+
+

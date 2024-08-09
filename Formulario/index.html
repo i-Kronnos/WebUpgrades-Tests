@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- ----------------- HTML Code for Esteban Quiñones ----------------- -->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- El link que pongo encima repitiendo la direccion de la hoja de estilo permite, por medio del rel=preload, cargar los estilos con prioridad a la hora de mostrar el sitio, agilizando la visualizacion de todo el diseño -->
+
+<!-- CSS para intercambiar -->
+        <!-- <link rel="preload" href="style1.css" as="style">
+        <link rel="stylesheet" href="style1.css"> -->
+
+        <!-- <link rel="preload" href="style2.css" as="style">
+        <link rel="stylesheet" href="style2.css"> -->
+
+<!-- CSS principal -->
+        <link rel="preload" href="style.css" as="style">
+        <link rel="stylesheet" href="style.css">
+        <title>Afiliación</title>
+    </head>
+
+    <body>
+
+<!-- Header -->
+        <header>
+            <div class="header"><h1>Vení al Gym! 💪</h1></div>
+        </header>
+
+<!-- Main -->
+        <main>
+
+            <form action="https://postman-echo.com/post" method="post" target="_blank">
+            
+            <!-- Datos personales -->
+                <fieldset>
+                    <legend>🙋‍♂️ <span class="cap-upper">D</span>atos Personales 👀</legend>
+
+                        <label for="nombre">Nombre:*</label>
+                        <input type="text" id="nombre" name="nombre" required> 
+                                
+                        <label for="apellido">Apellido:*</label>
+                        <input type="text" id="apellido" name="apellido" required> 
+                                
+                        <label for="documento">Documento:*</label>
+                        <input type="number" id="documento" name="documento" required> 
+                                
+                        <label for="nacionalidad">Nacionalidad:*</label>
+                        <select id="nacionalidad" name="nacionalidad" required>
+                                
+                            <option value="">- Seleccionar -</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="brasileña">Brasileña</option>
+                            <option value="uruguaya">Uruguaya</option>
+                            <option value="otra">Otra</option>
+                                
+                        </select> 
+                                
+                        <label for="comentario">Contanos un poco de vos...</label>
+                        <textarea name="comentario" id="comentario"></textarea> 
+                                
+                        <label for="sexo">Sexo:*</label> 
+
+                        <input type="radio" id="femenino" name="sexo" value="femenino">
+                        <label for="femenino">Femenino</label>
+                        
+
+                        <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                        <label for="masculino">Masculino</label>
+                        
+                        <input type="radio" id="otro" name="sexo" value="otro">
+                        <label for="otro">Otro</label>
+
+                </fieldset> <hr>
+
+            <!-- Datos de contacto -->
+                <fieldset>
+                    <legend>📱 <span class="cap-upper">D</span>atos de Contacto ✉️</legend>
+
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Código de área y número"> 
+
+                        <label for="email">Dirección de correo electrónico:*</label>
+                        <input type="email" id="email" name="email" required placeholder="Ej: mail@gmail.com"> 
+
+                </fieldset> <hr>
+            
+            <!-- Actividades -->
+                <fieldset class="start">
+                    <legend>🚴 <span class="cap-upper">A</span>ctividades 🤸</legend>
+
+                        
+                        <span for="actividades">Por favor, indicá cuáles actividades te interesan</span> 
+
+                        <label for="actividad-palermo">Sede Palermo:</label> 
+                            
+                            <input type="checkbox" id="basquet" name="basquet" value="basquet">
+                            <label for="basquet">Básquet</label>
+
+                            <input type="checkbox" id="boxeo" name="boxeo" value="boxeo">
+                            <label for="boxeo">Boxeo</label>
+
+                            <input type="checkbox" id="futbol" name="futbol" value="futbol">
+                            <label for="futbol">Fútbol</label>
+
+                            <input type="checkbox" id="tenis" name="tenis" value="tenis">
+                            <label for="tenis">Tenis</label>
+                        
+                        
+                        <label for="actividad-rosario">Sede Rosario:</label>
+
+                            <input type="checkbox" id="basquet-r" name="basquet-r" value="basquet-r">
+                            <label for="basquet-r">Básquet</label>
+
+                            <input type="checkbox" id="futbol-r" name="futbol-r" value="futbol-r">
+                            <label for="futbol-r">Fútbol</label>
+
+                            <input type="checkbox" id="rugby" name="rugby" value="rugby">
+                            <label for="rugby">Rugby</label>
+
+                            <input type="checkbox" id="voley" name="voley" value="voley">
+                            <label for="voley">Voley</label>
+
+                </fieldset>
+                
+            
+            <!-- Condiciones y novedades -->
+                <div class="footer-input">
+                    <input type="checkbox" id="condiciones" name="condiciones" value="condiciones" required>
+                    <label for="condiciones">Acepto las condiciones *</label> <br>
+
+                    
+                    <input type="checkbox" id="novedades" name="novedades" value="novedades">
+                    <label for="novedades">Deseo recibir novedades</label> <br>
+
+                    
+                    <span>*: campo obligatorio.</span>
+                </div>
+            <!-- Botones -->
+                <div class="footer-button">
+                    <button>Iniciar Afiliación</button>
+                    <button type="reset">Restablecer</button>
+                </div>
+            </form>
+
+        </main>
+    </body>
+</html>

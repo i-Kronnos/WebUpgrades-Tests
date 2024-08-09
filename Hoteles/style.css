@@ -1,0 +1,59 @@
+/* ----------------- CSS Code for Esteban Quiñones ----------------- */
+
+/* A continuacion, codigo para coincidir padding con width y tener como el tamaño total del elemento la suma de ambos: (Mas info en https://www.paulirish.com/2012/box-sizing-border-box-ftw/) */
+
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    color: #B75198;
+    letter-spacing: 15px;
+    font-weight: 500;
+}
+
+p {
+    color: #4b78c7;
+    font-size: 20px;
+}
+
+.contenedor {
+    overflow: auto;
+}
+/* Header */
+
+h1 {
+    font-size: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+/* Primera y Tercera seccion */
+
+.derecha {
+    float: right;
+    margin: 15px;
+}
+
+/* Segunda seccion */
+
+.izquierda {
+    float: left;
+    margin: 15px;
+}
+
+/* Footer */
+.footer-img {
+    width: 100%;
+}
