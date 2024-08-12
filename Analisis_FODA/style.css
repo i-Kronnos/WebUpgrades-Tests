@@ -14,5 +14,195 @@ html {
 body {
     font-family: "Lato", sans-serif;
     font-size: 16px; /* to make 1rem = 10px */
-    padding-left: 10px;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+.wrapper-radius {
+    border-radius: 1rem;
+}
+
+/* Header */
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5rem 0 5rem 0;
+}
+
+/* Main */
+
+.wrapper-main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper-que {
+    background-color: hsl(198, 100%, 76%);
+    margin: 0 auto;
+    padding: 3rem 10%;
+}
+
+.wrapper-que h2 {
+    text-align: center;
+    margin: 0 0 4rem 0;
+}
+
+.wrapper-que p {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+#s1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+#wrapper-s1 {
+    background-color: hsl(198, 100%, 70%);
+    padding: 2rem;
+}
+
+/* --------------------------------------------- */
+
+.wrapper-so {
+    display: flex;
+    justify-content: start;
+    gap: 10%;
+    margin-top: 10rem;
+}
+
+.wrapper-significa {
+    background-color: hsl(180, 100%, 80%);
+    width: 35%;
+    padding: 4rem;
+}
+
+.wrapper-significa h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    line-height: 8rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+}
+
+li::first-letter {
+    font-size: 7rem;
+}
+
+.wrapper-objetivo {
+    width: 55%;
+    background-color: hsl(271, 100%, 85%);
+    padding: 4rem;
+}
+
+.wrapper-objetivo h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.wrapper-objetivo p {
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+#p2 {
+    margin: 6rem 0 3rem 0;
+    text-align: center;
+}
+
+/* --------------------------------------------- */
+
+.wrapper-ci {
+    padding-bottom: 6rem;
+}
+
+.wrapper-ci h3 {
+    border: 3px solid hsl(267, 100%, 60%);
+    padding: 4rem; 
+}
+
+.wrapper-ci h3 {
+    text-align: center;
+    margin: 0 0 4rem 0;
+    padding-top: 4rem;
+}
+
+.wrapper-fd {
+    display: flex;
+    gap: 5%;
+}
+
+.pi-box {
+    width: 47.5%;
+    text-align: center;
+    background-color: rgba(143, 51, 255, 0.4);
+}
+
+.pi-box p {
+    font-size: 2.5rem;
+    padding: 0 4rem;
+    text-align: left;
+    line-height: 3.5rem;
+}
+
+/* --------------------------------------------- */
+
+#c3 {
+    border: 3px solid hsl(50, 100%, 76%);
+    padding: 4rem;
+    text-align: center;
+}
+
+.pe-box {
+    padding: 3rem 3rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    background-color: hsl(50, 100%, 76%);
+}
+
+.pe-box h4 {
+    margin: 0;
+}
+
+.pe-box p {
+    font-size: 2.5rem;
+    padding: 0 4rem;
+    text-align: left;
+    line-height: 3.5rem;
+}
+
+/* Footer */
+
+footer {
+    margin: 0;
+    background-color: hsl(60, 56%, 91%);
+    padding: 6rem 0;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-size: 4rem;
 }
